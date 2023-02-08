@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.rtl.min.css">
+  <title>buy</title>
+
+</head>
+<body>
+
+  <div class="row">
+    <div class="col-12 col-lg-2 dashbord">
+      <div class="text-center mt-5">
+        <img src="user 1.svg" alt="" class="img-fluid">
+        <h4 class="text-white mb-0">BLACK SKY</h3>
+        <h6 class="text-light mb-5">سلام کاربر</h6> 
+
+        
+      </div>
+      <nav>
+        <div><img src="Vector.svg" alt=""><a href="index.html" id="dash"> داشبورد</a></div>
+        <div class="activve"><img src="buy.svg" alt=""><a  href="buy.html">خرید اشتراک</a></div>
+        <div><img src="history.svg" alt=""> <a href="history.html">تراکنش ها</a></div>
+        <div class="dropdownn">
+          <img src="seting.svg" alt="">
+          <button onclick="myFunction()" class="dropbtn">تنظیمات</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="setting.html">ربات تلگرام</a>
+            <a href="404.html">ربات بله</a>
+            <a href="403.html">هاست</a>
+            
+          </div>
+        </div>
+      </nav>  
+      <br><br><br><br><br><br><br>
+      <p class="text-center text-white">ver 1.0.0</p>
+      
+    </div>
+
+    <div class="col-12 col-lg-10 main-dash pt-5">
+      <div class="row mt-5 justify-content-evenly">
+        
+        <h5 class="text-center mb-3">تمدید / خرید اشتراک</h5>
+        <div class="buy col-12 col-md-5 pt-3 mb-3">
+          <div class="me-3" style="direction: ltr;"><span class="h5" > تومان</span><span class="h2" >  ۹۹.۰۰۰ </span></div>
+          <h5>اشتراک یک ماهه</h5>
+          <span class="text-body-tertiary">دریافت خدمات تا 30 روز</span>
+          <div  class="mt-2" style="direction: ltr; float: left;">
+            <button type="button" class="btn buybut" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              خرید
+            </button>
+          </div>         
+        </div>
+
+        <div class="buy col-12 col-md-5 pt-3 mb-3">
+          <div class="me-3" style="direction: ltr;"><span class="h5" >تومان</span><span class="h2" > ۲۹۹.۰۰۰ </span></div>
+          <h5>اشتراک سه ماهه</h5>
+          <span class="text-body-tertiary">دریافت خدمات تا 90 روز</span>
+          <div style="direction: ltr; float: left;"><a href="buy2.html" class="buybut btn disabled" >خرید</a></div>         
+        </div>
+
+        <div class="buy col-12 col-md-5 pt-3 mb-3">
+          <div class="me-3" style="direction: ltr;"><span class="h5" >تومان</span><span class="h2" > ۴۶۹.۰۰۰ </span></div>
+          <h5>اشتراک شش ماهه</h5>
+          <span class="text-body-tertiary">دریافت خدمات تا 180 روز</span>
+          <div style="direction: ltr; float: left;"><a href="buy2.html" class="buybut btn disabled">خرید</a></div>         
+        </div>
+
+        <div class="buy col-12 col-md-5 pt-3 mb-3">
+          <div class="me-3" style="direction: ltr;"><span class="h5" >تومان</span><span class="h2" > ۷۶۹.۰۰۰ </span></div>
+          <h5>اشتراک یک ساله</h5>
+          <span class="text-body-tertiary">دریافت خدمات تا 365 روز</span>
+          <div  style="direction: ltr; float: left;"><a href="buy2.html" class="buybut btn disabled" >خرید</a></div>         
+        </div>
+
+        <a href="" class="text-center fw-semibold" style="text-decoration: none; color:black;"><img src="hedphone.svg" alt="غیرقابل نمایش"> تماس با پشتیبانی</a>
+
+      </div>
+      <br><br><br><br><br><br>
+      <p class="text-center text-secondary">کلیه حقوق این سایت متعلق به صاحب خونه می باشد.</p>
+      
+    </div>
+
+    
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content rounded-4">
+          <div class="modal-header titr rounded-top-4">
+            <h1 class="modal-title fs-5 text-white" id="staticBackdropLabel">جزئیات تراکنش</h1>
+            
+          </div>
+          <div class="modal-body">
+            
+            <div class="container-fluid">
+              <div class="row ">
+                
+                <div class="col-6  fw-semibold">
+                  <p class="h6 mb-3">نام کاربری</p>
+                  <p class="h6 mb-3">مبلغ</p>
+                  <p class="h6 mb-3">مبلغ مالیات</p>
+                  <p class="h6 mb-3">مجموع</p>
+                </div>
+                
+                <div class="col-6  fw-semibold">
+                  <p class="h6 mb-3">Black sky</p>
+                  <p class="h6 mb-3">99.000 تومان</p>
+                  <p class="h6 mb-3">9.000 تومان</p>
+                  <p class="h6 mb-3">108.000</p>
+                </div>                                                                
+              </div>
+              <br>
+              <h6 class="fw-semibold text-center">انتخاب درگاه</h6>
+              <div class="col-12 text-center pt-2" style="background-color: #F0F0F0; border-radius: 10px;">
+                <button type="button" class="btn" data-bs-toggle="button">
+                  <figure>
+                    <img src="saderat.svg" alt="saderat">
+                    <figcaption>صادرات</figcaption>
+                  </figure>
+                </button>
+                <button type="button" class="btn" data-bs-toggle="button">
+                  <figure>
+                    <img src="tejarat.svg" alt="tejarat">
+                    <figcaption>تجارت</figcaption>
+                  </figure>
+                </button>
+                <button type="button" class="btn" data-bs-toggle="button">
+                  <figure>
+                    <img src="melat.svg" alt="melat">
+                    <figcaption>ملت</figcaption>
+                  </figure>
+                </button>
+                </div>
+              
+              
+            </div>
+
+
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button type="button" class="btn btn-danger rounded-3" data-bs-dismiss="modal">انصراف</button>
+            <a href="receipt.html" class="btn btn-success rounded-3">خرید</a>
+          </div>
+        </div>
+  </div>
+    </div>
+  </div>
+
+ 
+
+  <script src="bootstrap.bundle.min.js"></script>
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }</script>   
+</body>
+
+</html>

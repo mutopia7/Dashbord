@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.rtl.min.css">
+  <title>Dashbord</title>
+
+</head>
+<body>
+
+  <div class="row">
+    <div class="col-12 col-lg-2 dashbord">
+      <div class="text-center mt-5">
+        <img src="user 1.svg" alt="" class="img-fluid">
+        <h4 class="text-white mb-0">BLACK SKY</h3>
+        <h6 class="text-light mb-5">سلام کاربر</h6> 
+
+        
+      </div>
+      <nav>
+        <div><img src="Vector.svg" alt=""><a href="index.html" id="dash"> داشبورد</a></div>
+        <div><img src="buy.svg" alt=""><a  href="buy.html">خرید اشتراک</a></div>
+        <div><img src="history.svg" alt=""> <a href="history.html">تراکنش ها</a></div>
+        <div class="dropdownn activve">
+          <img src="seting.svg" alt="">
+          <button onclick="myFunction()" class="dropbtn">تنظیمات</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a class="activve" href="setting.html">ربات تلگرام</a>
+            <a href="404.html">ربات بله</a>
+            <a href="403.html">هاست</a>
+            
+          </div>
+        </div>
+      </nav>  
+      <br><br><br><br><br><br><br>
+      <p class="text-center text-white">ver 1.0.0</p>
+      
+    </div>
+
+    <div class="col-12 col-lg-10 main-dash pt-5">
+      
+      <div class="container-fluid">
+
+        <div class="row mt-2">
+          <div class="col-1 col-md-2"></div>
+          <form class="col-10 col-md-7 formm p-4">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">شهر</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">منطقه</label>
+            </div>
+            
+            <div class="row">
+              <div class="col-md-6 col-12">
+                <div class="alert alert-dismissible fade show str" role="alert">
+                  <input type="text" name="" placeholder="نام خیابان">
+                  <button type="button" class="btn-close btn btn-danger " data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                <div class="alert alert-dismissible fade show str" role="alert">
+                  <input type="text" name="" placeholder="نام خیابان">
+                  <button type="button" class="btn-close btn btn-danger btnn" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="alert alert-dismissible fade show str" role="alert">
+                  <input type="text" name="" placeholder="نام خیابان">
+                  <button type="button" class="btn-close btn btn-danger" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                <div class="alert alert-dismissible fade show str" role="alert">
+                  <input type="text" name="" placeholder="نام خیابان">
+                  <button type="button" class="btn-close btn btn-danger" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+              </div>
+
+              <div class="col-md-6 col-12">
+                <div class="check mb-3">
+                  <input class="checktick" type="checkbox" name="" id="check1">
+                  <label for="check1">خرید و فروش مسکونی</label>
+                </div>
+                <div class="check mb-3">
+                  <input class="checktick" type="checkbox" name="" id="check2">
+                  <label for="check2">رهن و اجاره مسکونی</label>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="check mb-3">
+                  <input class="checktick" type="checkbox" name="" id="check3">
+                  <label for="check3">خرید و فروش تجاری</label>
+                </div>
+                <div class="check mb-3">
+                  <input class="checktick" type="checkbox" name="" id="check4">
+                  <label for="check4">رهن و اجاره تجاری</label>
+                </div>
+              </div>
+            </div>
+            <button type="button" class="sub mt-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              ثبت
+            </button>
+            
+            
+
+          </form>
+            
+
+         
+
+        </div>
+      
+        <br><br>
+        
+        <p class="text-center text-secondary">کلیه حقوق این سایت متعلق به صاحب خونه می باشد.</p>
+        
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+              <div class="modal-body text-center my-3">
+                <img src="sabz.svg" alt="not allow" class="mb-3">
+                <h5 class="fw-semibold">تنظیمات با موفقیت اعمال شد</h5>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+        
+        
+        
+        
+      </div>
+                  
+    </div>
+  </div>
+  
+
+ 
+
+  <script src="bootstrap.bundle.min.js"></script>
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }</script>   
+</body>
+
+</html>

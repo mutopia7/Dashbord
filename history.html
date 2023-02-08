@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.rtl.min.css">
+  <title>history</title>
+
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-lg-2 dashbord">
+        <div class="text-center mt-5">
+          <img src="user 1.svg" alt="" class="img-fluid">
+          <h4 class="text-white mb-0">BLACK SKY</h3>
+          <h6 class="text-light mb-5">سلام کاربر</h6> 
+  
+          
+        </div>
+        <nav>
+          <div><img src="Vector.svg" alt=""><a href="index.html" id="dash"> داشبورد</a></div>
+          <div><img src="buy.svg" alt=""><a  href="buy.html">خرید اشتراک</a></div>
+          <div class="activve"><img src="history.svg" alt=""> <a href="history.html">تراکنش ها</a></div>
+         
+          <div class="dropdownn">
+            <img src="seting.svg" alt="">
+            <button onclick="myFunction()" class="dropbtn" >تنظیمات</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="setting.html">ربات تلگرام</a>
+              <a href="404.html">ربات بله</a>
+              <a href="403.html">هاست</a>
+              
+            </div>
+          </div>
+        </nav>  
+        
+        <br><br><br><br><br><br><br>
+        <p class="text-center text-white ">ver 1.0.0</p>
+        
+      </div>
+  
+      <div class="col-12 col-lg-10 pt-5 main-dash">
+        
+        <h4 class="text-center fw-semibold">تاریخچه تراکنش ها</h4>
+  
+        <div class="history p-3 pt-4 col-12 ">
+          
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">نوع اشتراک</th>
+                <th scope="col">تاریخ خرید</th>
+                <th scope="col">تاریخ انقضا</th>
+                <th scope="col">وضعیت</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <th>یک ماهه</th>
+                <td>1400/02/05 21:21</td>
+                <td>1400/03/05 21:21</td>
+                <td><span class="btn btn-success disabled">فعال</span></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <th>سه ماهه</th>
+                <td>1399/12/05 21:21</td>
+                <td>1400/02/05 21:21</td>
+                <td><span class="btn btn-danger disabled">پایان یافته</span></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <th>سه ماهه</th>
+                <td>1399/09/05 21:21</td>
+                <td>1399/12/05 21:21</td>
+                <td><span class="btn btn-danger disabled">پایان یافته</span></td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <th>سه ماهه</th>
+                <td>1399/06/05 21:21</td>
+                <td>1399/09/05 21:21</td>
+                <td><span class="btn btn-danger disabled">پایان یافته</span></td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <th>یک ماهه</th>
+                <td>1399/05/05 21:21</td>
+                <td>1399/06/05 21:21</td>
+                <td><span class="btn btn-danger disabled">پایان یافته</span></td>
+              </tr>
+  
+            </tbody>
+          </table>
+  
+        </div>
+  
+        <nav class="mt-3" aria-label="Page navigation example" >
+          <ul class="pagination justify-content-center">
+            <li class="page-item">
+              <a class="page-link text-dark" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item ps-2"><a class="page-link text-dark" href="#">5</a></li>
+            <li class="page-item ps-2"><a class="page-link text-dark" href="#">4</a></li>
+            <li class="page-item ps-2"><a class="page-link text-dark" href="#">3</a></li>
+            <li class="page-item ps-2"><a class="page-link text-dark" href="#">2</a></li>
+            <li class="page-item ps-2"><a class="page-link text-dark" href="#">1</a></li>
+            <li class="page-item ps-2">
+              <a class="page-link text-dark" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <br>
+        <p class="text-center text-secondary">کلیه حقوق این سایت متعلق به صاحب خونه می باشد.</p>
+  
+      </div>
+      
+      
+    </div>
+  </div>
+
+
+
+
+
+ 
+
+  <script src="bootstrap.bundle.min.js"></script>
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }</script>   
+</body>
+
+</html>

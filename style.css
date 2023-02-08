@@ -1,0 +1,249 @@
+@font-face {
+    font-family: vazir;
+    src: url(Vazir.woff);
+}
+
+body{  
+    direction: rtl; 
+}
+
+*{
+  font-family: vazir;
+  box-sizing: border-box !important;
+}
+
+
+
+.dashbord{
+    background-image: linear-gradient(#2A6363, #12B878);
+    
+}
+
+nav div{
+    margin-top: 1em;
+    border-radius: 8%;
+    padding: 8px;
+    
+} 
+
+nav div a{
+    text-decoration: none;
+    color: #ebf1f1;
+    margin-right: 0.5em;
+    
+}
+
+nav div:hover{
+   background-color:  rgba(234, 234, 234, 0.25);
+}
+
+.activve{
+  background-color:  rgba(234, 234, 234, 0.25);
+}
+
+
+/* seting button*/
+
+
+.dropbtn {
+    cursor: pointer;
+    border: none;
+    background-color: unset !important;
+    color: #ebf1f1;
+    padding: 5px;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color:  rgba(234, 234, 234, 0.25);
+  }
+  
+  .dropdownn {
+    position: relative;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    
+    min-width: 160px;
+    overflow: auto;
+    
+    
+  }
+  
+  .dropdown-content a {
+    color: #ebf1f1;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  .dropdownn a:hover{
+    background-color:  rgba(234, 234, 234, 0.25);
+  }
+  
+  .show {display: block;}
+
+  /*the main of the dashbord page*/
+  
+.main-dash{
+  background-color: #EEF1F6;
+}
+
+
+
+.cardd{
+  border: solid #fff 1px;
+  border-radius: 25px;
+  background-color: #fff;
+  
+
+}
+
+.tamdid{
+  
+  border: solid 1px #0DCE71;
+  background-color: #0DCE71;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.tamdid a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/* history page */
+
+.history{
+  background-color: #fff;
+  border-radius: 20px;
+  
+}
+
+.history table{
+  margin-bottom: 100px;
+ }
+
+ .table, .table-striped{
+
+  overflow: hidden !important;
+ }
+
+ .page-link:focus{
+  border-color: #12B878 !important;
+  box-shadow: none !important;
+  border-width: 2px !important;
+  border-radius: 5px !important;
+  background-color: #fff !important;
+  color: #12B878 !important;
+ }
+
+
+ /* buy page */
+
+ .buy{
+  border-radius: 30px;
+  background: #fff url(time.svg) no-repeat;
+  background-position: 93% 5%;
+  padding-left: 0px !important;
+  
+ }
+
+ .buybut{
+  text-decoration: none;
+  color: #fff !important;
+  border: solid 1px #0DCE71 !important;
+  background-color: #0DCE71 !important;
+  border-radius: 5px 50px 3px 30px !important;
+  padding: 10px 40px 15px 20px !important;
+  
+ }
+
+ /* modal */
+
+ .titr{
+  background-color: #1DBB6F !important;
+  display: flex !important;
+  justify-content: center !important;
+  padding-bottom: 5px !important;
+  padding-top: 10px !important;
+
+ }
+
+
+ /* setting page */
+
+ .formm{
+  background-color: #fff;
+  border-radius: 10px ;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.22)
+ }
+
+ .form-floating input{
+  border-color: #0DCE71 !important;
+  direction: rtl !important;
+  border-radius: 10px !important;
+  border-width: 2px !important;
+ }
+
+ .form-floating input:focus{
+  box-shadow: none !important;
+ }
+
+.str{
+  border: solid 1px rgb(211, 210, 210) !important;
+  padding: 7px !important;
+  
+  border-radius: 15px !important;
+  
+}
+
+.str input{
+  background: url(loc.svg) no-repeat;
+  background-position: right;
+  padding-right: 25px;
+  padding-left: 25px;
+  border: none;
+  width: 100%;
+ 
+}
+
+.str input:focus{
+  outline: none !important;
+}
+
+.check{
+  border: solid 1px rgb(211, 210, 210) !important;
+  padding: 7px !important;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.10);
+  border-radius: 15px !important;
+  padding-right: 10px !important;
+}
+
+input[type="checkbox"]{
+  background-color: #0DCE71 !important;
+ 
+}
+
+label{
+  padding-right: 5px;
+}
+
+.sub{
+  background-color: #0DCE71;
+  border: unset;
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+}
+
+
+
+
+
+ 
